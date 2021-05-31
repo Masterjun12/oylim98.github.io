@@ -20,12 +20,12 @@ title                    : "yurim's devlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "yurim Oh"
-description              : "인공지능 공부하는 한량."
+description              :
 url                      : "https://oylim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : #"/assets/images/unnamed.jpg"
-logo                     : #"/assets/images/unnamed.jpg"
+teaser                   : 
+logo                     : 
 masthead_title           : 
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "light"
   utterances:
     theme                : "github-dark"
     issue_term           : # "pathname" (default)
@@ -98,11 +98,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "be better than yesterday."
   location         : "seoul.korea"
-  #email            : "oylim982@gmail.com"
+  email            : "oylim982@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "oylim982@gmail.com"
+      #url:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
