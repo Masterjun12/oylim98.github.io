@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -24,10 +24,10 @@ description              : "인공지능 공부하는 한량."
 url                      : "https://oylim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/unnamed.jpg"
-logo                     : "/assets/images/unnamed.jpg"
-masthead_title           : "후원계좌 카카오뱅크 3333031994511 오유림"
-# breadcrumbs            : false # true, false (default)
+teaser                   : #"/assets/images/unnamed.jpg"
+logo                     : #"/assets/images/unnamed.jpg"
+masthead_title           : 
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light"
+    theme                : "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
